@@ -1,0 +1,201 @@
+body,html,ul,li,h6,input,h1,div,h3,p,hr{
+	margin: 0;
+	padding: 0;
+}
+a:link{text-decoration:none;}
+.hide{
+	display: none;
+}
+input{outline:none} 
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+body{
+	background-image:url(../images/body_bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #b4daf0;
+}
+.webTop{
+	background-color: #fff;
+	height: 48px;
+	border-top: 2px solid #fa7d3c;
+	box-shadow: 0 0 1px 0px rgba(0,0,0,0.15);
+}
+.webTop_center{
+	position: relative;
+	width: 1280px;
+	height: 48px;
+	padding-top: 9px;
+	margin: 0 auto;
+}
+.WB_logo{
+	position: absolute;
+	top: 9px;
+	left: 0;
+	display: inline-block;
+	height: 48px;
+	width: 140px;
+}
+.WB_search{
+	display: inline-block;
+	line-height: 48px;
+	width: 425px;
+	height: 20px;
+	padding: 4px 33px 4px 10px;
+	border: none;
+	color: #808080;
+	border: 1px solid #ccc;
+	background-color:#f2f2f5;
+	font-family: "Microsoft YaHei";
+	font-size:12px;	
+}
+.Web_search{
+	width: 470px;
+	position: relative;
+	margin-left: 140px;
+}
+.iii{
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	color: #808080;
+}
+.Web_top_nav{
+	position: absolute;
+	right: 0;
+	top: 11px;
+}
+.Web_top_nav ul li{
+	float: left;
+	list-style: none;
+	color: #808080;
+	font-family: "Microsoft YaHei";
+	margin-left: 26px;
+	font-size: 16px;
+}
+.Web_top_nav ul li i{
+	margin-right: 5px;
+}
+.Web_top_nav ul li:nth-of-type(6){
+	padding-left: 26px;
+	border-left: 1px solid #808080;
+}
+.news_t{
+	position: absolute;
+	top: -2px;
+	right: -10px;
+}
+.news{
+	min-width: 18px;
+	height: 13px;
+	line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2px;
+    background: #fa7d3c;
+    color: #fff;
+    border-radius: 3px;
+    font-size:8px;
+}
+.new{
+	position: relative;
+}
+.webMain_center{
+	width: 1000px;
+    min-height: 680px;
+    margin: 0 auto;
+    padding: 16px 0 0 0;
+    background-color: #93c5e3;
+        background-color: rgba(70,149,194,0.3);
+}
+.webMain_center div{
+	float: left;	
+}
+.abc{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+}
+.webMain_left{
+	
+}
+.webMain_left ul li{
+	list-style: none;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	width: 135px;
+	height: 34px;
+	padding-left: 15px;
+}
+.WebMain_nav li{
+	font-size: 14px;
+    font-weight: bold;
+	font-family: "Microsoft YaHei";
+    line-height: 34px;
+}
+.WebMain_nav li:nth-of-type(3){
+	border-bottom: 1px solid #93c5e3;
+	padding-bottom: 10px;
+}
+.WebHot{
+	padding: 5px 0;
+}
+.webMain_left .WebHot li{
+	line-height: 34px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	font-weight: 570;
+}
+.webMain_left .WebHot li:nth-of-type(1){
+	position: relative;
+}
+.webMain_left .WebHot li:nth-of-type(2){
+	padding-bottom: 10px;
+	border-bottom: 1px solid #93c5e3;
+}
+.WebHot li i{
+	margin-right: 5px;
+}
+.diot{
+	position: absolute;
+	top:13.5px ;
+	right:7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	background-color: #fa7d3c;
+}
+.interest{
+	width: 150px;
+	height: 239px;
+	overflow: hidden;
+}
+.interest ul li{
+	position: relative;
+	font-size: 12px;
+	padding-left: 30px;
+	line-height: 34px;
+}
+.icon{
+	position: absolute;
+	top: 13.5px;
+	left: 15px;
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	background-color: #fff;
+}
+.spe{
+	position: absolute;
+	top: 11.5px;
+	right: 15px;
+}
+.circle{
+	position: absolute;
+	top: 11.5px;
+	left: 15px;
+}
