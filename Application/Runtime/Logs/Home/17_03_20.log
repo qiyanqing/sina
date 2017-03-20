@@ -1953,3 +1953,192 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
 
+[ 2017-03-20T10:41:02+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015447s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:41:45+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:41:47+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:41:47+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:41:48+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:41:48+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:43:34+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:47:59+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:48:01+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:49:34+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:20+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:21+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:22+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:22+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:22+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:22+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:22+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:23+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:23+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:23+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
+[ 2017-03-20T10:51:23+08:00 ] 127.0.0.1 /index.php/Home/user/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sina'
+
