@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/user/css/sina_login.css">
-	<link href="__PUBLIC__/Home/user//css/font-awesome.min.css" rel="stylesheet">
-	<script type="text/javascript" src="__PUBLIC__/Home/user/js/jquery.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/Home/user/js/sina_login.js"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/Home/user/css/sina_login.css">
+	<link href="/Public/Home/user//css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="/Public/Home/user/js/jquery.js"></script>
+	<script type="text/javascript" src="/Public/Home/user/js/sina_login.js"></script>
 	<title>新浪</title>
 </head>
 <body>
 <div class="allWeb">
 	<div class="webTop clearfix">
 		<div class="webTop_center">
-			<a href="http://weibo.com/?category=99991" class="WB_logo" align="center"><img src="__PUBLIC__/Home/user/images/WB_logo.png"></a>	
+			<a href="http://weibo.com/?category=99991" class="WB_logo" align="center"><img src="/Public/Home/user/images/WB_logo.png"></a>	
 			<div class="Web_search">
 				<input class="WB_search"  placeholder="大家正在搜：李维嘉经纪人">
 				<i class="fa fa-search iii"></i>
@@ -58,7 +58,7 @@
 				<div class="webVideo">
 					<ul>
 						<li class="video1"><div class="videoHot">
-							<img src="__PUBLIC__/Home/user/images/5.jpg">
+							<img src="/Public/Home/user/images/5.jpg">
 						</div>
 						<div class="videoDes">
 							<a href="#" class="videoName">武汉铁路局</a><div class="num"><i class="fa fa-caret-square-o-right"></i>12万</div>
@@ -67,14 +67,14 @@
 						<div class="video_main">#武铁微分享#【可乐鸡翅已经OUT了，这才是××翅的王道！】鸡翅的非油炸新吃法，健康美味全搞定！[哈哈]http://t.cn/RqCvApm ​​​​</div></li>
 
 						<li class="video1"><div class="videoHot">
-							<img src="__PUBLIC__/Home/user/images/zj.jpg">
+							<img src="/Public/Home/user/images/zj.jpg">
 						</div>
 						<div class="videoDes">
 							<a href="#" class="videoName">张牙舞爪</a><div class="num"><i class="fa fa-caret-square-o-right"></i>2131万</div>
 							<div class="little_img"></div>
 						</div>
 						<div class="video_main">#歌手# 张杰深情演绎《默》，唱的好心疼，听到了最深的孤独最无奈的悲痛。 ​ http://t.cn/RJmSexM ​​​​</div></li><li class="video1"><div class="videoHot">
-							<img src="__PUBLIC__/Home/user/images/min.jpg">
+							<img src="/Public/Home/user/images/min.jpg">
 						</div>
 						<div class="videoDes">
 							<a href="#" class="videoName">视频电影军</a><div class="num"><i class="fa fa-caret-square-o-right"></i>12212万</div>
@@ -83,24 +83,8 @@
 						<div class="video_main">#视频电影君#神曲《seve》舞蹈最简单的教程，只需要六步，卧槽，碉堡了！http://t.cn/RIzg3bW ​ ​​​​</div></li>
 					</ul>
 				</div>
-				<div class="webNews">
-					<p><a>冯小刚发了一条微博，震动了整个娱乐圈！</a></p>
-					<p>冯小刚发了一条微博，震动了整个娱乐圈！</p>
-					<div class="webNews_img">
-						<ul>
-							<li><img src="./images/img1.jpg"></li>
-							<li><img src="./images/img2.jpg"></li>
-							<li class="margin_right"><img src="./images/img3.jpg"></li>
-						</ul>
-					</div>
-					<div class="webNews_Name"><img src="./images/user_head.jpg"><p><span><a href="">@小茶婆婆茶事</a></span><span>今天04:08<span><i class="fa fa-envelope-o praise">43</i></span><span><i class="fa fa-file-o praise">76</i></span><span><i class="fa fa-hand-o-right praise">4353</i></span></span></p></div>
-				</div>
-				<div class="webTalk">
-					<img src="./images/answer.jpg">
-					<div class="talk">
-						<p>震惊！《教女友唱粤语歌》第二集隆重登场，这一集女朋友<a href="">@赵梦玥UU</a>的粤语似乎有所进步。但是我们遇到了更大的挑战，男人听后沉默女人听后流泪… </p>
-						<div class="webNews_Talk"><img src="./images/user_head.jpg"><p><span><a href="">@小茶婆婆茶事</a></span><span>今天04:08<span><i class="fa fa-envelope-o praise">43</i></span><span><i class="fa fa-file-o praise">76</i></span><span><i class="fa fa-hand-o-right praise">4353</i></span></span></p></div>
-					</div>
+				<div class="">
+					
 				</div>
 			</div>
 			<div class="webMain_right">

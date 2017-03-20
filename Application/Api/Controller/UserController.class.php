@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class UserController extends Controller {
-    public function index(){
+    public function handlelogin(){
         $result = array();
         $user_id = $_POST['user_id'];
         $user_password = $_POST['user_password'];
