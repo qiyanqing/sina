@@ -17,15 +17,15 @@ $(function(){
 	    	var password=$(".accounts_password").val()
 	    	console.log(ID,password)
 		    $.ajax({
-		    	url:"",
+		    	url:"https://sina.wb/index.php/Api/User/handlelogin",
 		    	type:"post",
 		    	data:{
 		    		user_id:ID,
 		    		user_password:password
 		    	},
 		    	dataType:"json",
-		    	success:function(){
-
+		    	success:function res(){
+		    		console.log(res)
 		    	}
 		    })
 	    })
