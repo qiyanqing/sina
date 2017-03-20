@@ -2,6 +2,9 @@ body,html,ul,li,h6,input,h1,div,h3,p,hr{
 	margin: 0;
 	padding: 0;
 }
+ul li{
+	list-style: none;
+}
 a:link{text-decoration:none;}
 .hide{
 	display: none;
@@ -14,7 +17,7 @@ input{outline:none}
 	height: 0;
 }
 body{
-	background-image:url(../images/body_bg.jpg);
+	background-image:url(../images/body_repeat.png);
 	background-repeat: repeat-x;
 	background-color: #b4daf0;
 }
@@ -27,7 +30,7 @@ body{
 .webTop_center{
 	position: relative;
 	width: 1280px;
-	height: 48px;
+	height: 38px;
 	padding-top: 9px;
 	margin: 0 auto;
 }
@@ -108,8 +111,8 @@ body{
     min-height: 680px;
     margin: 0 auto;
     padding: 16px 0 0 0;
-    background-color: #93c5e3;
-        background-color: rgba(70,149,194,0.3);
+    background-color: #a8afb9;
+    background-color: rgba(36,61,89,0.25);
 }
 .webMain_center div{
 	float: left;	
@@ -194,8 +197,295 @@ body{
 	top: 11.5px;
 	right: 15px;
 }
+.webMain_mid{
+	width: 600px;
+	margin-right: 10px;
+}
 .circle{
 	position: absolute;
 	top: 11.5px;
 	left: 15px;
+}
+.webVideo{
+	width: 560px;
+	/*height: 165px;*/
+	padding: 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.videoHot{
+	width: 180px;
+	height: 108px;
+}
+.videoHot img{
+	width: 100%;
+	height: 100%;
+}
+.video1{
+	width: 180px;
+	height: 165px;
+}
+.videoName{
+	width: 30px;
+	margin-left: 45px;
+	overflow: hidden;
+	color:#eb7350 ;
+	font: 12px/0px "Microsoft YaHei"
+}
+.webVideo .num{
+	color: #333;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	float: right;
+}
+.videoDes{
+	position: relative;
+	width: 180px;
+}
+.little_img{
+	background-image: url(../images/video1.jpg);
+	width: 36px;
+	height: 36px;
+	border-radius: 36px;
+	background-color: red;
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	background-size: cover;
+}
+.video_main{
+	padding-top: 5px;
+	width: 180px;
+	height: 34px;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #333;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden
+}
+.webVideo ul li{
+	float: left;
+	margin-right: 10px; 
+}
+.webVideo ul li:nth-of-type(3){
+	margin-right: 0;
+}
+.web_login{
+	width: 200px;
+	min-height: 280px;
+    background-color: #fff;
+    padding: 0 15px 6px 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+}
+.account{
+	padding-top: 11px;
+}
+.account span{
+	float: left;
+    margin-bottom: -1px;
+    width: 50%;
+    border-bottom: 1px solid #808080;
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+	font-family: "Microsoft YaHei";
+}
+/*选中样式*/
+.web_login .pitch{
+	color: #000;
+	font-weight: 600;
+    border-bottom: 3px solid #eb7350;
+}
+/*账号登录*/
+.accounts_login,.accounts_password{
+	width: 160px;
+	height: 28px;
+	margin-top: 16px;
+	padding: 1px 0px 1px 36px;
+	border-radius: 2px;
+	line-height: normal;
+    vertical-align: middle;
+    color: #808080;
+    outline-style: none;
+    border:1px solid #ccc;
+}
+.web_login ul li:nth-of-type(4){
+	line-height: 14px;
+	margin-top: 10px;
+	color: #808080;
+	font-size: 12px;
+}
+.web_login ul li:nth-of-type(4) span{
+	float: right;
+}
+.btn_login{
+	width: 198px;
+    background: #f7671d;
+    border: 1px solid #f06923;
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei";
+}
+.web_login ul li:nth-of-type(6){
+	margin-top: 10px;
+	color: #808080;
+	font-size: 12px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #808080;;
+}
+.web_login ul li:nth-of-type(7){
+	margin-top: 10px;
+    font-family: "Microsoft YaHei";
+	color: #808080;
+	font-size: 12px;
+}
+.web_login ul li:nth-of-type(6) a{
+	color: #f7671d;
+	font-size: 12px;
+}
+.webNews{
+	width: 560px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 2px;
+	padding: 20px 20px;
+}
+/*有问题*/
+.webNews p:nth-of-type(1){
+	font-size: 18px;
+	font-weight: 700;
+    font-weight: bold;
+	color: #000;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.webNews p:nth-of-type(2){
+	color: #808080;;
+	letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.webNews_img ul li{
+	margin-right: 10px;
+	float: left;
+	width: 180px;
+	height: 108px;
+}
+.webNews_img ul li img{
+	width: 100%;
+	height: 100%;
+}
+.webNews_img .margin_right{
+	margin-right: 0;
+}
+.webNews_Name span{
+	font-weight: 500;
+	font-size: 12px;
+	color: #808080;
+    line-height: 20px;
+}
+.webNews_Name a{
+	font-size: 12px;
+	color: #808080;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 10px;
+} 
+.webNews_Name{
+	height: 20px;
+	margin-top: 10px;
+	width: 560px;
+	position: relative;
+}
+.webNews_Name p{
+	font-family: "simsun";
+	margin-left: 25px;
+	color: #808080;
+    font-size: 12px;
+}
+.webNews_Name img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+}
+.praise{
+	float: right;
+	margin-right: 10px;
+}
+.webTalk{
+	position: relative;
+	margin-top: 10px;
+	width: 560px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 2px;
+	padding: 20px 20px;
+}
+.talk>p{
+	font-size: 14px;
+	line-height: 23px;
+    max-height: 46px;
+    overflow: hidden;
+	font-family: "Microsoft YaHei";
+    color: #333;
+    text-decoration: none;
+}
+.talk{
+	width: 444px;
+	margin-left: 116px;
+}
+.webTalk>img{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 106px;
+	height: 70px;
+}
+.webNews_Talk span{
+	font-weight: 500;
+	font-size: 12px;
+	color: #808080;
+    line-height: 20px;
+}
+.webNews_Talk a{
+	font-size: 12px;
+	color: #808080;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 10px;
+} 
+.webNews_Talk{
+	height: 20px;
+	margin-top: 10px;
+	width: 444px;
+	position: relative;
+}
+.webNews_Talk p{
+	font-family: "simsun";
+	margin-left: 25px;
+	color: #808080;
+    font-size: 12px;
+}
+.webNews_Talk img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
 }
