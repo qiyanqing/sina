@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/Public/Home/user/css/sina_login.css">
-	<link href="/Public/Home/user//css/font-awesome.min.css" rel="stylesheet">
+	<link href="/Public/Home/user/css/font-awesome.min.css" rel="stylesheet">
 	<script type="text/javascript" src="/Public/Home/user/js/jquery.js"></script>
 	<script type="text/javascript" src="/Public/Home/user/js/sina_login.js"></script>
 	<title>新浪</title>
@@ -83,8 +83,24 @@
 						<div class="video_main">#视频电影君#神曲《seve》舞蹈最简单的教程，只需要六步，卧槽，碉堡了！http://t.cn/RIzg3bW ​ ​​​​</div></li>
 					</ul>
 				</div>
-				<div class="">
-					
+				<div class="webNews">
+					<p><a>冯小刚发了一条微博，震动了整个娱乐圈！</a></p>
+					<p>冯小刚发了一条微博，震动了整个娱乐圈！</p>
+					<div class="webNews_img">
+						<ul>
+							<li><img src="/Public/Home/user/images/img1.jpg"></li>
+							<li><img src="/Public/Home/user/images/img2.jpg"></li>
+							<li class="margin_right"><img src="/Public/Home/user/images/img3.jpg"></li>
+						</ul>
+					</div>
+					<div class="webNews_Name"><img src="/Public/Home/user/images/user_head.jpg"><p><span><a href="">@小茶婆婆茶事</a></span><span>今天04:08<span><i class="fa fa-envelope-o praise">43</i></span><span><i class="fa fa-file-o praise">76</i></span><span><i class="fa fa-hand-o-right praise">4353</i></span></span></p></div>
+				</div>
+				<div class="webTalk">
+					<img src="/Public/Home/user/images/answer.jpg">
+					<div class="talk">
+						<p>震惊！《教女友唱粤语歌》第二集隆重登场，这一集女朋友<a href="">@赵梦玥UU</a>的粤语似乎有所进步。但是我们遇到了更大的挑战，男人听后沉默女人听后流泪… </p>
+						<div class="webNews_Talk"><img src="/Public/Home/user/images/user_head.jpg"><p><span><a href="">@小茶婆婆茶事</a></span><span>今天04:08<span><i class="fa fa-envelope-o praise">43</i></span><span><i class="fa fa-file-o praise">76</i></span><span><i class="fa fa-hand-o-right praise">4353</i></span></span></p></div>
+					</div>
 				</div>
 			</div>
 			<div class="webMain_right">
