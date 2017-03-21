@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class UserController extends Controller {
+class HomepageController extends Controller {
     public function handlelogin(){
         $result = array();
         $user_id = $_POST['user_id'];
