@@ -17,7 +17,7 @@ $(function(){
 	    	var password=$(".accounts_password").val()
 	    	console.log(ID,password)
 		    $.ajax({
-		    	url:"https://sina.wb/index.php/Api/User/handlelogin",
+		    	url:"https://sina.wb/index.php/Api/Homepage/handlelogin",
 		    	type:"post",
 		    	data:{
 		    		user_id:ID,
