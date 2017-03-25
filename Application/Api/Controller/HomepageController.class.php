@@ -1,12 +1,12 @@
 <?php
-namespace Home\Controller;
+namespace Api\Controller;
 use Think\Controller;
 class HomepageController extends Controller {
     public function handlelogin(){
         $result = array();
-        $user_id = $_POST['user_id'];
+        $user_login = $_POST['user_id'];
         $user_password = $_POST['user_password'];
-        $re = M('user')->where(array('user_id'=>$user_id))->find();
+        $re = M('user')->where(array('user_login'=>$user_login))->find();
         if (!isset($re)) {
         	$state = 1;  //账号不存在
         }else{
