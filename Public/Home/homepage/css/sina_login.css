@@ -21,7 +21,11 @@ body{
 	background-repeat: repeat-x;
 	background-color: #b4daf0;
 }
+.select{
+	background-color: #a9b9d2;
+}
 .webTop{
+	z-index: 100;
 	background-color: #fff;
 	height: 48px;
 	border-top: 2px solid #fa7d3c;
@@ -44,7 +48,7 @@ body{
 }
 .WB_search{
 	display: inline-block;
-	line-height: 48px;
+	/*line-height: 48px;*/
 	width: 425px;
 	height: 20px;
 	padding: 4px 33px 4px 10px;
@@ -201,6 +205,12 @@ body{
 	height: 7px;
 	border-radius: 7px;
 	background-color: #fff;
+}
+.thin{
+	font-weight: normal;
+}
+.WebMain_nav .thin{
+	font-weight: normal;
 }
 .spe{
 	position: absolute;
