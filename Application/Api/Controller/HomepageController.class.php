@@ -12,19 +12,20 @@ class HomepageController extends Controller {
         }elseif(!isset($re)) {
             $state = 2;  //账号不存在!
         
-        }elseif(isset($re)){
+        }else{
         	$pd=M('user')->where(array('user_login'=>$user_login))
         				 ->field('user_password')
         				 ->find();
                    foreach ($pd as $key => $value) {
                        $a = $value;
                    }
+                   // var_dump($a);
+                   // var_dump($user_password);
         		if(!$user_password) {
-                    echo "!";
         			$state = 3;  //密码未输入！
         		}
                 else{
-                    if($a == $user_password){
+                    if($a !== $user_password){
                         $state = 4;  
                          //密码错误 ！
                     }
@@ -36,4 +37,8 @@ class HomepageController extends Controller {
         $result['status'] = $state;
         echo json_encode($result);
 	}
+    public function category_left(){
+        $cate_l = M('category')->where(array('parent_id'=>1))->select();
+        print_r($cate_l);
+    }
 }
