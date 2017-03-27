@@ -19,8 +19,6 @@ class HomepageController extends Controller {
                    foreach ($pd as $key => $value) {
                        $a = $value;
                    }
-                   // var_dump($a);
-                   // var_dump($user_password);
         		if(!$user_password) {
         			$state = 3;  //密码未输入！
         		}
@@ -37,8 +35,26 @@ class HomepageController extends Controller {
         $result['status'] = $state;
         echo json_encode($result);
 	}
-    public function category_left(){
-        $cate_l = M('category')->where(array('parent_id'=>1))->select();
-        print_r($cate_l);
+    public function category_left(){//微博左侧分类
+        $result = array();
+        $cate_l = M('category')->where(array('parent_id'=>1))->field('name')->select();
+        foreach ($cate_l as $key => $value) {
+            $result['name'][] = $value['name'];
+        }
+        $result['status'] = 'success';
+        //var_dump($result);
+        echo json_encode($result);
+    }
+    public function category_right(){//微博右侧分类
+        $result = array();
+        $cate_r = M('category')->where(array('parent_id'=>2))->select();
+        foreach ($cate_r as $key => $value) {
+            $cate_c = M('category')->where(array('parent_id'=>$value['id']))->select();
+            $cate_r[$key]['child'] = $cate_c; 
+            $result['name'] = $cate_r;
+        }
+        $result['status'] = 'success';
+        //var_dump($result);
+        echo json_encode($result);
     }
 }
