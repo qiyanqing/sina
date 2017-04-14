@@ -39,10 +39,10 @@ class HomepageController extends Controller {
         $result = array();
         $cate_l = M('category')->where(array('parent_id'=>1))->field('name')->select();
         foreach ($cate_l as $key => $value) {
-            $result['name'][] = $value['name'];
+            $result['names'][] = $value['name'];
         }
         $result['status'] = 'success';
-        //var_dump($result);
+        var_dump($result);
         echo json_encode($result);
     }
     public function category_right(){//微博右侧分类
@@ -51,10 +51,25 @@ class HomepageController extends Controller {
         foreach ($cate_r as $key => $value) {
             $cate_c = M('category')->where(array('parent_id'=>$value['id']))->select();
             $cate_r[$key]['child'] = $cate_c; 
-            $result['name'] = $cate_r;
+            $result['names'] = $cate_r;
         }
         $result['status'] = 'success';
         //var_dump($result);
         echo json_encode($result);
+    }
+    public function register(){//用户注册
+        $result = array();
+        $data['user_login'] = $_POST['user_login'];
+        $data['uder_password'] = $_POST['user_password'];
+        $data['email'] = $data['user_login'];
+        $data['create_time'] = date('Y-m-d H:i:s');
+        $ist_email = M('user')->where(array('email'=>$email))->find();
+        if ($ist_email) {
+            $status = 1 ; //邮箱已存在
+        }else{
+            M('user')->add($data);
+            $status = 2 ; //账号注册成功
+        }
+        $result['status'] = $status;
     }
 }
