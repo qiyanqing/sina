@@ -39,7 +39,7 @@ class HomepageController extends Controller {
         $result = array();
         $cate_l = M('category')->where(array('parent_id'=>1))->field('name')->select();
         foreach ($cate_l as $key => $value) {
-            $result['name'][] = $value['name'];
+            $result['names'][] = $value['name'];
         }
         $result['status'] = 'success';
         //var_dump($result);
@@ -51,7 +51,7 @@ class HomepageController extends Controller {
         foreach ($cate_r as $key => $value) {
             $cate_c = M('category')->where(array('parent_id'=>$value['id']))->select();
             $cate_r[$key]['child'] = $cate_c; 
-            $result['name'] = $cate_r;
+            $result['names'] = $cate_r;
         }
         $result['status'] = 'success';
         //var_dump($result);
