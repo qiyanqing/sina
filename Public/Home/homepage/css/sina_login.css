@@ -615,22 +615,23 @@ body{
 	margin-top: 10px;
 	min-height: 1px;
 }
-.ul_text li{
+.kind{
+	list-style: none;
 	position: relative;
 	float: left;
-	width: 91px;
+	width: 99px;
 	min-height: 26px;
 }
-.ul_text li a{
+.kind a{
 	color: #333;
 	font-family: "Microsoft YaHei";
 	font-size: 12px;
 }
-.ul_text li a span{
+.kind a span{
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.ul_text li a img{
+.kind a img{
 	position: absolute;
 	width: 14px;
 	min-height: 14px;
