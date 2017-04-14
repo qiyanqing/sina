@@ -20,8 +20,8 @@ $(function(){
 		    	},
 		    	dataType:"json",
 		    	success:function(res){
-		    		// console.log(res)
-		    		var a=""
+		    		console.log(res)
+		    		var a="" 
 		    		for (var i = 0; i < res.names.length; i++) {
 		    			// console.log(res.names[i])
 			    			a="<ul class='WebMain_nav'><li class='select the_one'><i class='fa fa-fire'></i><a href='#' style='color:#fff'>"+res.names[0]+"</a></li><li><div class='icon'></div><a href='# 'style='color:#fff' class='thin'>"+res.names[1]+"</a></li><li><div class='icon'></div><a href='# 'style='color:#fff' class='thin'>"+res.names[2]+"</a></li><li><div class='icon'></div><a href='#' style='color:#fff' class='thin'>"+res.names[3]+"</a></li><fieldset></fieldset></ul><ul class='WebHot'><li class'thin'><i class='fa fa-video-camera'></i><a href='# 'style='color:#fff' class='thin'>"+res.names[4]+"</a></li><fieldset></fieldset></ul><ul class='WebMain_nav'><li><i class='fa fa-flash'></i><a href='#' style='color:#fff' class='thin'>"+res.names[5]+"</a></li><li><div class='icon'></div><a href='# 'style='color:#fff' class='thin'>"+res.names[6]+"</a></li><li><div class='icon'></div><a href='#' style='color:#fff' class='thin'>"+res.names[7]+"</a></li><li><div class='icon'></div><a href='# 'style='color:#fff' class='thin'>"+res.names[8]+"</a></li><fieldset></fieldset></ul><ul class='WebHot'><li><i class='fa fa-video-camera'></i><a href='#' style='color:#fff' class='thin'>"+res.names[9]+"</a></li></ul>"
@@ -62,9 +62,9 @@ $(function(){
 		    	},
 		    	dataType:"json",
 		    	success:function(res){
-		    		console.log(res)
+		    		// console.log(res)
 		    		var num=res.status
-		    		console.log(num)
+		    		// console.log(num)
 		    		if (num==1) {alert("请输入账号")}
 		    		if (num==2) {alert("账号不存在")}
 		    		if (num==3) {alert("请输入密码")}
@@ -123,18 +123,16 @@ $(function(){
 	    		var a=""
 	    		var b=""
 	    		var flag=0
-	    		alert(12314124)
+	    		// console.log(111)
 	    		for (var i = 0; i < res.names.length; i++) {    		
 					a="<h3>"+res.names[i].name+"</h3>"
-    				console.log(res.names[i].name)
     				$(".wb_find_bottom").append(a) 
-    				 $(".wb_find_bottom").append("<ul>")  					
+    				 // $(".wb_find_bottom").append("<ul class='ul_text clearfix'></ul>")  					
 					for (var j = 0; j < res.names[i].child.length; j++) {
-						b="<li><a href=''><img src='__PUBLIC__/Home/homepage/images/star.png'><span>"+res.names[i].child[j].name+"</span></a></li>"
-	    				 console.log("11"+res.names[i].child[j].name)   
+						b="<li class='kind'><a href='https://www.baidu.com/'><img src="+"/Public/upload/"+res.names[i].child[j].logo+"><span>"+res.names[i].child[j].name+"</span></a></li>" 
 	    				$(".wb_find_bottom").append(b)
 					};
-	    				$(".wb_find_bottom").append("</ul>")  
+    				$(".wb_find_bottom").append("<ul class='ul_text clearfix'></ul>")  
 	    		};
 
 	    		// for (var i = 0; i < res.names.length; i++) {

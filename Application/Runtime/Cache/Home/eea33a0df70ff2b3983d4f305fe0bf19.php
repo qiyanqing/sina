@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/Public/Home/homepage/css/sina_login.css">
 	<link href="/Public/Home/homepage/css/font-awesome.min.css" rel="stylesheet">
 	<script type="text/javascript" src="/Public/Home/homepage/js/jquery.js"></script>
-	<script type="text/javascript" src="/Public/Home/homepage/js/jquery.tmpl.min.js"></script>
+	<!--<script type="text/javascript" src="/Public/Home/homepage/js/jquery.tmpl.min.js"></script>-->
 	<script src="/Public/Home/homepage/js/sina_login.js"></script>
 	<title>新浪</title>
 </head>
@@ -149,39 +149,7 @@
 						<div class="wb_find_top">
 							<span>微博找人</span>
 						</div>
-						<div class="wb_find_bottom">
-							<!-- <h3>名人</h3> -->
-							<!-- <ul class="ul_text clearfix"> -->
-								<!-- <li><a href=""><img src="/Public/Home/homepage/images/star.png"><span>明星</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star1.png"><span>商界</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>媒体精英</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>作家</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star4.png"><span>政府官员</span></a></li> -->
-						<!-- 	</ul> -->
-						<!-- 	<h3>专家</h3>
-							<ul class="ul_text clearfix">
-								<li><a href=""><img src="/Public/Home/homepage/images/star.png"><span>医疗</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star1.png"><span>商界</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>媒体精英</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>作家</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star4.png"><span>政府官员</span></a></li>
-							</ul>
-							<h3>名人</h3>
-							<ul class="ul_text clearfix">
-								<li><a href=""><img src="/Public/Home/homepage/images/star.png"><span>明星</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star1.png"><span>商界</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>媒体精英</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>作家</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star4.png"><span>政府官员</span></a></li>
-							</ul>
-							<h3>名人</h3>
-							<ul class="ul_text clearfix">
-								<li><a href=""><img src="/Public/Home/homepage/images/star.png"><span>明星</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star1.png"><span>商界</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>媒体精英</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star3.png"><span>作家</span></a></li>
-								<li><a href=""><img src="/Public/Home/homepage/images/star4.png"><span>政府官员</span></a></li>
-							</ul> -->
+						<div class="wb_find_bottom clearfix">
 						</div>
 					</div>
 				</div>

@@ -42,7 +42,7 @@ class HomepageController extends Controller {
             $result['names'][] = $value['name'];
         }
         $result['status'] = 'success';
-        var_dump($result);
+        //var_dump($result);
         echo json_encode($result);
     }
     public function category_right(){//微博右侧分类
