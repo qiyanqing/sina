@@ -2,3 +2,161 @@ body,html,ul,li,h6,input,h1,div,h3,p,hr{
 	margin: 0;
 	padding: 0;
 }
+a:link{text-decoration:none;}
+
+.wb_header_logo{
+	height: 3px;
+    border-bottom: 1px solid #e6f1f9;
+    background: url(../images/top_line_bg.png) repeat-x center 0;
+    overflow: hidden
+}
+.wb_wave{
+	height: 164px;   
+	width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: url(../images/bg_reg_wave.png) no-repeat center bottom;
+}
+body{
+	background: url(../images/reg_repeat_bg.png) repeat-x #bee1f5;
+}
+.wb_logo{
+	    width: 200px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 26px;
+	background: url(../images/logo_big.png) repeat-x;
+}
+.wb_main{
+	width: 900px;
+    margin: 0 auto 15px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.wb_main_header{
+	padding: 24px 0 22px 40px;
+}
+.wb_main_header a{
+	    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    line-height: 33px;
+    font-family: "Microsoft Yahei";
+}
+.wb_main_header span{
+	margin: 0 19px;
+}
+.border_bottom{
+	    border-bottom: 3px solid #ffa00a;
+}
+.wb_main_left{
+	    margin: 29px 0 0 20px;
+    padding-bottom: 78px; 
+    /*float: left;*/
+    width: 600px;
+}
+.phone_register,.password_register{
+	    margin: 0 0 15px;
+    position: relative;
+    width: 600px;
+}
+.phone_logo,.password_logo{
+	line-height: 30px;
+	float: left;
+	width: 157px;
+	height: 30px;
+	text-align: right;
+	font-size: 14px;	
+	padding-right: 3px;
+}
+.hide{
+	display: none;
+}
+input{outline:none} 
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.phone_logo .p_l{
+	display: inline-block;
+	width: 20px;
+    height: 23px;
+    background: url(../images/reg_method_s.png) no-repeat 0 0;
+    vertical-align: middle;
+    margin-right: 9px;
+    background-position: 0 -24px
+}
+.phone_country{
+	position: relative;
+}
+.phone_country .country{
+	float: left;
+	display: inline-block;
+	width: 35px;
+	height: 28px;
+	border:1px solid #ccc;
+	border-right: none;
+	border-radius:0px 0px 0px 2px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #808080;
+	text-align: center;
+}
+
+.phone_country input{
+	width: 124px;
+	height: 28px;
+	padding-left: 40px;
+    border-radius: 2px;
+    border:none;
+    box-shadow: 0px 1px 1px 0px #eaeaea inset;
+    border:1px solid #ccc;
+}
+.area{
+	position: absolute;
+	left: 200px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #808080;
+	text-align: center;
+}
+.email_register{
+
+    font-size:12px;
+    font-family: "Microsoft Yahei"
+}
+.email_register a{
+	color: #0a8cd2;
+    text-decoration: none;
+    font-size:12px;
+    font-family: "Microsoft Yahei"
+}
+.email_register{
+	margin-top: 5px;
+	margin-left: 160px;
+}
+.password{
+	 width: 195px;
+	height: 28px;
+	padding-left: 5px;
+    border-radius: 2px;
+    border:none;
+    border:1px solid #ccc;
+    box-shadow: 0px 1px 1px 0px #eaeaea inset;
+}
+.wb_submit{
+	margin: 30px 0 12px;
+}
+.inp{
+	margin-left: 160px;
+	text-align: center;
+	width: 198px;
+	height: 38px;
+	border:1px solid #ffb33b;
+	line-height: 38px;
+	border-radius: 2px;
+	background-color: #FFA00A;
+	color: #fff;    font-weight: bold;
+}
