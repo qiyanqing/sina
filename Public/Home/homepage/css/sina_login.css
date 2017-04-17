@@ -646,3 +646,8 @@ body{
 	height: 150px;
 	margin-top: 10px;
 }
+.search_select{
+	padding: 2px;
+	width: 421px;
+	font-size: 12px;
+}

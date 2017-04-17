@@ -93,24 +93,6 @@ $(function(){
 
 	})
 	//右侧接口拼接字符串方法
-	// $.ajax({
-	//     	url:"/index.php/Api/Homepage/category_right",
-	//     	type:"post",
-	//     	data:{
-	//     	},
-	//     	dataType:"json",
-	//     	success:function(res){
-	//     		console.log(res)
-	//     		var a=""			
-	//     		for (var i = 0; i < res.names.length; i++) {
-	//     			for (var j = 0; j < res.names[i].child.length; j++) {
-	//     				a+="<li><a href=''><img src=''><span>"+res.names[i].child[j].name+"</span></a></li>"
-	// 	    			$(".ul_text").html(a)
-	// a+="<h3>"+res.names[i].name+"</h3><ul class='ul_text clearfix'><li><a href=''><img src='__PUBLIC__/Home/homepage/images/star.png'><span>"+res.names[index].child[j].name+"</span></a></li></ul>"
-	//     			};		
-	//     		};
-	//     	}
-	//     })  
 	//右侧接口tmpl方法
 	$.ajax({
 	    	url:"/index.php/Api/Homepage/category_right",
@@ -134,14 +116,13 @@ $(function(){
 					};
     				$(".wb_find_bottom").append("<ul class='ul_text clearfix'></ul>")  
 	    		};
-
-	    		// for (var i = 0; i < res.names.length; i++) {
-	    		// 	b+="<h3>"+res.names[i].name+"</h3>"
-	    		// 	$(".ul_text").before(b)
-	    		// };
-	   //  		var names = res.names;
-				// $("#tmpl_all").tmpl(names).appendTo($(".allWeb"));
-				// allFun();
 	    	}
 	    }) 
+	//搜索框点击样式
+	$(".WB_search").click(function(){
+		$(".WB_search").css("background-color","#fff").css("border","1px solid #eb7350").attr("placeholder","李维嘉经纪人")
+	})
+	$(".WB_search").focusout(function(){
+		$(".WB_search").css("background-color","#f2f2f5").css("border","1px solid #ccc").attr("placeholder","大家正在搜：李维嘉经纪人")
+	})
 })
