@@ -29,8 +29,8 @@
 						<li><i class="fa fa-video-camera"></i><a href="#" style="color: #808080">视频</a></li>
 						<li><i class="fa fa-compass"></i><a href="#" style="color: #808080">发现</a></li>
 						<li><i class="fa fa-gamepad"></i><a href="#" style="color: #808080">游戏</a></li>
-						<li>注册</li>
-						<li>登录</li>
+						<li><a href="http://sina.wb/index.php/Home/register/user_register">注册</a></li>
+						<li><a href="">登录</a></li>
 					</ul>
 				</div>
 			</div>
