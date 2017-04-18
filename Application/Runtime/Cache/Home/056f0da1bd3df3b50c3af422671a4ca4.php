@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -22,20 +22,16 @@
 			<div class="wb_main_bottom">
 				<div class="wb_main_left clearfix">
 					<div class="phone_register">
-						<div class="phone_logo"><span class="p_l"></span><span style="color:red">*</span> 邮箱 : </div>
-						<div class="email"><input placeholder="请输入您的邮箱"></div>
-						<div class="email_register">或使用<a href="http://sina.wb/index.php/Home/register/phone_register">手机注册</a></div>
+						<div class="phone_logo"><span class="p_l"></span><span style="color:red">*</span> 手机 : </div>
+						<div class="phone_country"><span class="country"></span><span class="area">0086</span><input placeholder="请输入您的手机号码"></div>
+						<div class="email_register">或使用<a href="http://sina.wb/index.php/Home/register/email_register">邮箱注册</a></div>
 					</div>
 					<div class="password_register">
 						<div class="password_logo"><span style="color:red">*</span> 设置密码 : </div>
 						<input class="password">
 					</div>
-					<div class="code">
-						<div class="password_logo"><span style="color:red">*</span> 验证码 : </div>
-						<input class="code_run"><div class="auth"></div><a href="">换一换</a>
-					</div>
 					<div class="wb_submit">
-						<div class="inp"><a href="" style="color:#fff">立即注册</a></div>
+						<div class="inp">立即注册</div>
 					</div>
 					<div></div>
 				</div>
