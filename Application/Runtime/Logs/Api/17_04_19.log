@@ -1,0 +1,136 @@
+[ 2017-04-19T13:12:33+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0221s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:12:33') [ RunTime:0.0281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-19T13:12:35+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:12:35') [ RunTime:0.0335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-04-19T13:12:49+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:12:49') [ RunTime:0.0302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-04-19T13:12:51+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0019s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:12:51') [ RunTime:0.0421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-04-19T13:12:52+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0028s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:12:52') [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-19T13:13:03+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0016s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:13:03') [ RunTime:0.0738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-19T13:13:06+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:13:05') [ RunTime:0.0383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-19T13:13:06+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: user_login D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: user_password D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: email D:\xampp\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES (NULL,NULL,'2017-04-19 13:13:06') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
