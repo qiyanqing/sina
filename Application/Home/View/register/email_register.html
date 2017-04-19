@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/Public/Home/register/css/register.css">
 	<!-- <link href="./css/font-awesome.min.css" rel="stylesheet"> -->
-	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="/Public/Home/register/js/jquery.js"></script>
 	<!--<script type="text/javascript" src="./js/jquery.tmpl.min.js"></script>-->
-	<script src="./js/register.js"></script>
+	<script src="/Public/Home/register/js/email.js"></script>
 	<title>微博注册</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
 						<input class="code_run"><div class="auth"></div><a href="">换一换</a>
 					</div>
 					<div class="wb_submit">
-						<div class="inp"><a href="" style="color:#fff">立即注册</a></div>
+						<div class="inp"><a href="#" style="color:#fff">立即注册</a></div>
 					</div>
 					<div></div>
 				</div>
