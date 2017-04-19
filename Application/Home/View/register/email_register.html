@@ -30,9 +30,9 @@
 						<div class="password_logo"><span style="color:red">*</span> 设置密码 : </div>
 						<input class="password">
 					</div>
-					<div class="code">
+					<div class="code_big">
 						<div class="password_logo"><span style="color:red">*</span> 验证码 : </div>
-						<input class="code_run"><div class="auth"></div><a href="">换一换</a>
+						<input class="code_run" id="input"><input class="auth" style="border:none" id="code" type="text" readonly="readonly" onclick="createCode()" type="button"><a href="">换一换</a>
 					</div>
 					<div class="wb_submit">
 						<div class="inp"><a href="#" style="color:#fff">立即注册</a></div>

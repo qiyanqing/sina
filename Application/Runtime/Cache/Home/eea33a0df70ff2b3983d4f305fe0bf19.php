@@ -29,7 +29,7 @@
 						<li><i class="fa fa-video-camera"></i><a href="#" style="color: #808080">视频</a></li>
 						<li><i class="fa fa-compass"></i><a href="#" style="color: #808080">发现</a></li>
 						<li><i class="fa fa-gamepad"></i><a href="#" style="color: #808080">游戏</a></li>
-						<li><a href="http://sina.wb/index.php/Home/register/user_register">注册</a></li>
+						<li><a href="http://sina.wb/index.php/Home/register/phone_register">注册</a></li>
 						<li><a href="">登录</a></li>
 					</ul>
 				</div>
@@ -121,7 +121,7 @@
 							<li><input class="accounts_password" placeholder="请输入密码"></li>
 							<li><input type="checkbox" id="aaa">记住我<span class="forget">忘记密码</span></li>
 							<li class="btn_login">登录</li>
-							<li>还没有微博？<a href="">立即注册</a></li>
+							<li>还没有微博？<a href="http://sina.wb/index.php/Home/register/phone_register">立即注册</a></li>
 							<li>其他登录</li>
 						</ul>
 					</div>
