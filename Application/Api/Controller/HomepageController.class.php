@@ -59,9 +59,9 @@ class HomepageController extends Controller {
     }
     public function register(){//用户注册
         $result = array();
-        $data['user_login'] = $_POST['user_login'];
-        $data['uder_password'] = $_POST['user_password'];
-        $data['email'] = $data['user_login'];
+        $data['user_login'] = $_POST['email'];
+        $data['uder_password'] = $_POST['password'];
+        $data['email'] = $data['email'];
         $data['create_time'] = date('Y-m-d H:i:s');
         $ist_email = M('user')->where(array('email'=>$email))->find();
         if ($ist_email) {
