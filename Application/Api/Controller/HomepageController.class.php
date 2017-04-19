@@ -70,7 +70,7 @@ class HomepageController extends Controller {
             M('user')->add($data);
             $status = 2 ; //账号注册成功
         }
-        var_dump($result);
         $result['status'] = $status;
+        echo json_encode($result);
     }
 }
