@@ -30,4 +30,17 @@
 	    $result['path'] = $img_path;
 	    return $result;
 	}
+	function isEmail($value,$match='/^[\w\d]+[\wd-.]*@[w\d-.]+\.[\w\d]{2,10}$/i'){ 
+		$v = trim($value); 
+		if(empty($v)) 
+		return 'false'; 
+		return preg_match($match,$v); 
+	} 
+	function isPWD($value,$minLen=5,$maxLen=16){ 
+		$match='/^[\\~!@#$%^&*()-_=+|{}\[\],.?\/:;\'\"\d\w]{'.$minLen.','.$maxLen.'}$/'; 
+		$v = trim($value); 
+		if(empty($v)) 
+		return false; 
+		return preg_match($match,$v); 
+	}
 ?>

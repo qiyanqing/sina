@@ -64,21 +64,20 @@ class HomepageController extends Controller {
         $data['email'] = $data['user_login'];
         $data['create_time'] = date('Y-m-d H:i:s');
         $ist_email = M('user')->where(array('email'=>$email))->find();
-        if ($data['user_login']) {
-             if ($ist_email) {
-                 $status = 2 ; //邮箱已存在
+        $em = isEmail($data['email'])
+        if ($em == 'false') {
+            $status = 1 ; //请输入邮箱
+        }else{
+            if ($ist_email) {
+                $status = 2 ; //邮箱已存在
             }else{
-                if($data['user_password']){
-                    M('user')->add($data);
-                    $status = 4 ;  //账号注册成功
-                }else{
+                if (empty($data['user_password'])) {
                     $status = 3 ;   //请输入密码
                 }
+                 M('user')->add($data);
+                 $status = 4 ;  //账号注册成功
             }
-        }else{
-            $status = 1 ; //请输入邮箱，
-        }
-       
+        }     
         $result['status'] = $status;
         echo json_encode($result);
     }
