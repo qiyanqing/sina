@@ -134,3 +134,418 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
 
+[ 2017-04-19T13:26:19+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0033s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.5595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-04-19T13:26:19+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-04-19T13:26:25+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-04-19T13:26:25+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-04-19T13:26:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0075s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-04-19T13:26:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-04-19T13:26:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0066s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-04-19T13:26:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-04-19T13:26:28+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-19T13:26:28+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2017-04-19T13:27:28+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:27:28') [ RunTime:0.0117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-04-19T13:27:29+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:27:29') [ RunTime:0.0238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-04-19T13:27:30+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:27:30') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-04-19T13:27:42+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:27:42') [ RunTime:0.0261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-04-19T13:30:33+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:30:33') [ RunTime:0.0231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-04-19T13:30:34+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`email`,`create_time`) VALUES ('123',NULL,'2017-04-19 13:30:34') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-04-19T13:34:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:34:21') [ RunTime:0.0961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-04-19T13:34:32+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:34:32') [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-04-19T13:34:33+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:34:33') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001811s ]
+
+[ 2017-04-19T13:35:05+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:35:05') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-04-19T13:35:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:35:23') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-04-19T13:35:33+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('','','','2017-04-19 13:35:33') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-04-19T13:36:11+08:00 ] 127.0.0.1 /index.php/Api/homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: password F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0288s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES (NULL,NULL,NULL,'2017-04-19 13:36:11') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-04-19T13:36:32+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:36:32') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-04-19T13:36:34+08:00 ] 127.0.0.1 /index.php/Api/homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined index: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 62 行.
+NOTIC: [8] Undefined index: password F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES (NULL,NULL,NULL,'2017-04-19 13:36:34') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-04-19T13:36:46+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:36:46') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-19T13:36:46+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:36:46') [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+

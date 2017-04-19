@@ -60,8 +60,8 @@ class HomepageController extends Controller {
     public function register(){//用户注册
         $result = array();
         $data['user_login'] = $_POST['email'];
-        $data['uder_password'] = $_POST['password'];
-        $data['email'] = $data['email'];
+        $data['user_password'] = $_POST['password'];
+        $data['email'] = $data['user_login'];
         $data['create_time'] = date('Y-m-d H:i:s');
         $ist_email = M('user')->where(array('email'=>$email))->find();
         if ($ist_email) {
@@ -70,6 +70,7 @@ class HomepageController extends Controller {
             M('user')->add($data);
             $status = 2 ; //账号注册成功
         }
+        var_dump($result);
         $result['status'] = $status;
     }
 }
