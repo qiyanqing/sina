@@ -549,3 +549,48 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
 
+[ 2017-04-19T13:40:58+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0342s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:40:58') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-04-19T13:40:58+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:40:58') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-04-19T13:41:00+08:00 ] 127.0.0.1 /index.php/Api/Homepage/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: email F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 66 行.
+SQL: SELECT * FROM `wb_user` WHERE `email` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wb_user` (`user_login`,`user_password`,`email`,`create_time`) VALUES ('123','123','123','2017-04-19 13:41:00') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
